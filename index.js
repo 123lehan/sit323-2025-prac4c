@@ -8,7 +8,7 @@ app.get('/add', (req, res) => {
 
 // Check if both parameters are provided
 
-if (!num || !num2) {
+if (!num1 || !num2) {
     return res.status(400).send("Error: Missing parameters. Please provide num1 and num2.");
 }
 
